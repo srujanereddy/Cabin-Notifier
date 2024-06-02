@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Busy">
+
+    <ImageView
+        android:id="@+id/chair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_baseline_chair_24"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="241dp"
+        android:layout_marginBottom="30dp"
+        app:tint="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="No Data Found"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>
